@@ -1,15 +1,15 @@
-.H58Yg {
+.root {
   --transition-duration: 0.3s;
   --transition-delay: 0.15s;
 }
 
 /* horizontal */
 
-.lvJ5N {
+.horizontal {
   transition: opacity var(--transition-duration) var(--transition-delay);
 }
 
-.lvJ5N line {
+.horizontal line {
   stroke-linecap: round;
   stroke: currentColor;
   transition: stroke-dashoffset var(--transition-duration)
@@ -17,32 +17,32 @@
     stroke-width var(--transition-duration);
 }
 
-.x1QiF .lvJ5N {
+.isClosed .horizontal {
   transition-delay: 0s;
 }
 
-.x1QiF .lvJ5N line {
+.isClosed .horizontal line {
   transition-delay: 0s;
 }
 
 /* cross */
 
-.KQhOh {
+.cross {
   transition: opacity var(--transition-duration);
 }
 
-.KQhOh line {
+.cross line {
   stroke-linecap: round;
   stroke: currentColor;
   transition: stroke-dashoffset var(--transition-duration),
     stroke-width var(--transition-duration);
 }
 
-.x1QiF .KQhOh {
+.isClosed .cross {
   transition-delay: var(--transition-delay);
 }
 
-.x1QiF .KQhOh line {
+.isClosed .cross line {
   transition: stroke-dashoffset var(--transition-duration)
       var(--transition-delay),
     stroke-width var(--transition-duration);
