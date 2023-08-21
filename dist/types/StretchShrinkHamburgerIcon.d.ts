@@ -1,7 +1,7 @@
 import React from 'react';
 type Props = {
     lines?: 2 | 3 | undefined;
-    closed?: boolean | undefined;
+    open?: boolean | undefined;
     options?: {
         strokeWidth?: number | undefined;
         transitionDuration?: string | number | undefined;
@@ -11,5 +11,5 @@ type Props = {
     };
     className?: string | undefined;
 };
-export declare const StretchShrinkHamburgerIcon: ({ lines, closed, options, className, }: Props) => React.JSX.Element;
+export declare const StretchShrinkHamburgerIcon: ({ lines, open, options, className, }: Props) => React.JSX.Element;
 export {};
