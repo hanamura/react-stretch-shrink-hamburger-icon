@@ -1,6 +1,6 @@
 {
   "name": "@hanamura/react-stretch-shrink-hamburger-icon",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "scripts": {
     "build": "rm -rf dist && rollup -c",
     "rollup": "rollup -c",
