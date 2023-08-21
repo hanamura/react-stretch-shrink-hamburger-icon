@@ -17,11 +17,11 @@
     stroke-width var(--transition-duration);
 }
 
-.isClosed .horizontal {
+.isOpen .horizontal {
   transition-delay: 0s;
 }
 
-.isClosed .horizontal line {
+.isOpen .horizontal line {
   transition-delay: 0s;
 }
 
@@ -38,11 +38,11 @@
     stroke-width var(--transition-duration);
 }
 
-.isClosed .cross {
+.isOpen .cross {
   transition-delay: var(--transition-delay);
 }
 
-.isClosed .cross line {
+.isOpen .cross line {
   transition: stroke-dashoffset var(--transition-duration)
       var(--transition-delay),
     stroke-width var(--transition-duration);
