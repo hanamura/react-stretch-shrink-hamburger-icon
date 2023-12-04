@@ -17,11 +17,11 @@
     stroke-width var(--transition-duration);
 }
 
-.x1QiF .lvJ5N {
+.uw0TH .lvJ5N {
   transition-delay: 0s;
 }
 
-.x1QiF .lvJ5N line {
+.uw0TH .lvJ5N line {
   transition-delay: 0s;
 }
 
@@ -38,11 +38,11 @@
     stroke-width var(--transition-duration);
 }
 
-.x1QiF .KQhOh {
+.uw0TH .KQhOh {
   transition-delay: var(--transition-delay);
 }
 
-.x1QiF .KQhOh line {
+.uw0TH .KQhOh line {
   transition: stroke-dashoffset var(--transition-duration)
       var(--transition-delay),
     stroke-width var(--transition-duration);

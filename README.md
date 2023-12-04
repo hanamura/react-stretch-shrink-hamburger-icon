@@ -1,4 +1,4 @@
-# ⚛️ React `StretchShrinkHamburgerIcon` Component
+# ⚛️ StretchShrinkHamburgerIcon
 
 ## Usage
 
